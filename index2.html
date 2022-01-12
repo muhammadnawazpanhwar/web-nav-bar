@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naigation bar with flex</title>
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        .container{
+            background-color:rgb(129, 51, 51);
+            display: flex;
+            font-size: 30px;
+            padding: 10px 20px;
+            color: white;
+            justify-content: space-between;
+            border-radius: 18px; 
+
+        }
+        .item{
+            margin-top: 3px;
+            margin-left: 30px;
+            align-items: center;
+        }
+        .item:hover{
+            cursor: pointer;
+            background-color: black;
+        }
+        .search{
+            margin: 3px;
+            padding: 3px 3px;
+        }
+        .cart{
+            margin: 3px;
+            padding: 3px 3px;
+            
+        }
+        .contact{
+            margin: 3px;
+            padding: 3px 3px;
+        }
+        .cart:hover{
+            cursor: pointer;
+            background-color: black;
+
+        }
+        .contact:hover{
+            cursor: pointer;
+            
+        }
+        .search{
+            cursor: pointer;
+        }
+        
+
+    
+        
+
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-tshirt">JAKASH</i>
+            </div>
+            <div class="item" id="item-1">Home</div>
+            <div class="item" id="item-2">About us </div>
+            <div class="item" id="item-3">Services</div>
+            <div class="item" id="item-5">Contact us </div>
+            <div class="item" id="item-6">Blogs</div>
+            <div class="search">
+                <i class="fas fa-search"></i>
+            </div> 
+            <div class="contact">
+                <i class="fas fa-id-card"></i>
+            </div>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
